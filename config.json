@@ -1,0 +1,21 @@
+{
+    "external_id": "CALL20240614_2",
+    "external_entity_id": "+3519701749030",
+    "external_entity_type_id": "PHONE01",
+    "direction": "Inbound",
+    "status": "Completed",
+    "start_time": "2024-06-14T22:31:49.196Z",
+    "end_time": "2024-06-14T22:39:49.196Z",
+    "agent_external_id": "SMITH01",
+    "rerun": true,
+    "channel": "VoiceCall",
+    "audio": {
+        "path": "audio_calls/teste.mp3",
+        "base64": "",
+        "stereo": true,
+        "agent": "Unknown"
+    },
+    "metadata": [{"name":"Test metadata key", "value": "Test metadata value"}],
+    "tags": [{"tag":"Test tag"}],
+    "notes": "test notes"
+}
