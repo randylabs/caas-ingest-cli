@@ -1,0 +1,48 @@
+# eol
+* text eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# dotfiles
+.editoconfig text
+.gitattributes text
+.gitignore text
+.gitconfig text
+.dockerignore text
+.helmignore text
+
+# language specific
+LICENSE text
+Dockerfile text
+*.java text diff=java
+*.proto text
+*.py text diff=python
+*.sh text diff=bash
+*.go text diff=golang
+*.ts text
+*.js text
+*.html text diff=html
+*.css text diff=css
+*.md text diff=markdown
+*.xml text
+*.yaml text
+*.yml text
+*.json text
+*.properties text
+
+# binary
+*.png binary
+*.webp binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.gz binary
+*.zip binary
+*.7z binary
+*.ttf binary
+*.eot binary
+*.woff binary
+*.pyc binary
+*.pdf binary
+*.jar binary
