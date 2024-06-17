@@ -1,9 +1,13 @@
 import requests
 import sys
 import json
+import os
 
-audio_manager_url = 'http://localhost:8081/api/v1/audio'
-api_url = 'http://localhost:8080/api/v1/conversation'
+AUTH_TOKEN_API = os.getenv('AUTH_TOKEN_API')
+AUTH_TOKEN_AUDIO = os.getenv('AUTH_TOKEN_AUDIO')
+
+audio_manager_url = 'https://caas.randylabs.cloud/v1/audio'
+api_url = 'https://caas.randylabs.cloud/v1/conversation'
 
 def helper():
     print('COMMANDS')
@@ -27,9 +31,7 @@ def upload_file(file_path):
     res = 0
     try:
         with open(file_path, 'rb') as audio_file:
-            print('Opened file')
-            response = requests.post(audio_manager_url, files={'file': audio_file})
-            print('here')
+            response = requests.post(url = audio_manager_url, files={'file': audio_file}, headers={'X-Auth-Token': AUTH_TOKEN_AUDIO})
             res = response.status_code
             if response.status_code == 200:
                 print('File uploaded with success!')
@@ -45,7 +47,7 @@ def upload_file(file_path):
 
 def get_info(conv_id: str):
     try:
-        response = requests.get(f"{api_url}/{conv_id}")
+        response = requests.get(url = f"{api_url}/{conv_id}", headers={'X-Auth-Token': AUTH_TOKEN_API})
         print(response.json())
 
     except Exception as e:
@@ -53,7 +55,7 @@ def get_info(conv_id: str):
 
 def get_status(conv_id: str):
     try:
-        response = requests.get(f"{api_url}/{conv_id}/status")
+        response = requests.get(url = f"{api_url}/{conv_id}/status", headers={'X-Auth-Token': AUTH_TOKEN_API})
         print(response.json())
 
     except Exception as e:
@@ -61,7 +63,7 @@ def get_status(conv_id: str):
 
 def get_timeline(conv_id: str):
     try:
-        response = requests.get(f"{api_url}/{conv_id}/timeline")
+        response = requests.get(url = f"{api_url}/{conv_id}/timeline", headers={'X-Auth-Token': AUTH_TOKEN_API})
         print(response.json())
 
     except Exception as e:
@@ -71,7 +73,7 @@ def process_call(config_path):
     try:
         with open(config_path) as config:
             config_file = json.load(config)
-        response = requests.post(api_url, json = config_file)
+        response = requests.post(url = api_url, json = config_file, headers={'X-Auth-Token': AUTH_TOKEN_API})
 
         if response.status_code == 200:
             print('Processing the conversation. You can now find the conversation in the UI.')

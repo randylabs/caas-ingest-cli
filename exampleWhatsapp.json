@@ -1,0 +1,198 @@
+{
+  "external_id": "WHATS20240617_1",
+  "external_entity_id": "+3519701749030",
+  "external_entity_type_id": "PHONE01",
+  "direction": "Inbound",
+  "status": "Completed",
+  "start_time": "2024-05-31T12:41:49.196Z",
+  "end_time": "2024-05-31T12:41:49.196Z",
+  "agent_external_id": "SMITH01",
+  "rerun": true,
+  "channel": "Whatsapp",
+  "messages":
+        [
+            {
+                "actor": "Agent",
+                "text": "Hello, good morning, Wael speaking.",
+                "start_time": 0,
+                "end_time": 0
+            },
+            {
+                "actor": "Customer",
+                "text": "Hi, good morning, Wael.",
+                "start_time": 5,
+                "end_time": 5
+            },
+            {
+                "actor": "Agent",
+                "text": "May I know your name?",
+                "start_time": 10,
+                "end_time": 10
+            },
+            {
+                "actor": "Customer",
+                "text": "This is Mustafa Abmorsen.",
+                "start_time": 15,
+                "end_time": 15
+            },
+            {
+                "actor": "Agent",
+                "text": "Welcome, Mr.  Mustafa.  You are calling regarding the number you are calling us from, or another number?",
+                "start_time": 20,
+                "end_time": 20
+            },
+            {
+                "actor": "Customer",
+                "text": "Same number.",
+                "start_time": 25,
+                "end_time": 25
+            },
+            {
+                "actor": "Agent",
+                "text": "Okay, how can I help you?",
+                "start_time": 30,
+                "end_time": 30
+            },
+            {
+                "actor": "Customer",
+                "text": "Look, I have a big problem with you guys.  I hope you solve the problem without handling me.  So now my bill is fixed at 320 pounds per month.  Okay.  As I have a control limit zero package.  Accordingly, there's nothing should be added to my bill.  Okay.  Now I came to pay the bill in the branch and I found them telling me I owe them 4,000 pounds on the bill.  I said, what?  They said 4,000 pounds.  So I asked for the detailed bill.  I went through it and the detailed bill, Was about.  \u00a33900 or 3000 something.  All roaming.  And I have not traveled anywhere.  I'm sitting in my ID having gone anywhere.  So I want to know where this money comes from.",
+                "start_time": 35,
+                "end_time": 35
+            },
+            {
+                "actor": "Agent",
+                "text": "Bear with me for a few minutes, Sir.",
+                "start_time": 40,
+                "end_time": 40
+            },
+            {
+                "actor": "Customer",
+                "text": "OK.",
+                "start_time": 45,
+                "end_time": 45
+            },
+            {
+                "actor": "Agent",
+                "text": "OK, I already have your invoice, Sir.  The last invoice, which is \u00a34,054, is already in our system, showing that you are a subscriber too, which is \u00a3320, including added tax.  It shows also that you were in Saudi Arabia during the period from 1811 to 2311.  If you want me, I have the details of the calls that are visible to me during this period.  I can share them with you if you would like to take them.",
+                "start_time": 50,
+                "end_time": 50
+            },
+            {
+                "actor": "Customer",
+                "text": "Mr.  Wael, there are two possibilities here.  Either Mahadi move to Saudi Arabia, For you are a company of thieves.  I'm telling you.  I'm sure it will appear to you.  Would you like me to send you a copy of my passport to see if I have any visas to Saudi Arabia or not?  I didn't travel.  I didn't go anywhere.  I was home in Cairo.  Okay, okay.",
+                "start_time": 55,
+                "end_time": 55
+            },
+            {
+                "actor": "Agent",
+                "text": "Bear with a few moments with me.  Okay, during this period, the mobile phone and line were with you and not with anyone else.",
+                "start_time": 60,
+                "end_time": 60
+            },
+            {
+                "actor": "Customer",
+                "text": "That's right.  My mobile number is a work number, so I definitely don't share it with anybody else.",
+                "start_time": 65,
+                "end_time": 65
+            },
+            {
+                "actor": "Agent",
+                "text": "Okay, sorry.  But it appears to me that he was working on one of these networks in Saudi Arabia during the period I told you about.",
+                "start_time": 70,
+                "end_time": 70
+            },
+            {
+                "actor": "Customer",
+                "text": "I confirmed to you that during this period, while I was sitting here in Cairo, and I neither went to Saudi nor came from Saudi.",
+                "start_time": 75,
+                "end_time": 75
+            },
+            {
+                "actor": "Agent",
+                "text": "Okay, I will register a complaint with you, and God willing, someone will contact you within 48 hours.",
+                "start_time": 80,
+                "end_time": 80
+            },
+            {
+                "actor": "Customer",
+                "text": "Mr.  Wilde, 48 hours, Mr.  Wilde, it's not possible.  Mr.  Wilde, I now want to pay the bill completely.  I am coming to pay the bill, and I will still have two days left on the bill.  If I don't pay the bill, the line will stop.  This line is linked to my work.  It cannot stop.  I will not pay any amount about, which is like 10 times what I usually pay.  Actually, it's more than 10 times.  And especially when it's a mistake on your system, please check the system.  If you would like to go back to someone to assist you, please solve the problem now.",
+                "start_time": 85,
+                "end_time": 85
+            },
+            {
+                "actor": "Agent",
+                "text": "If you come in and pay the bill, the amount turns out and the amount turns out to be wrong, it will be refunded to you immediately.",
+                "start_time": 90,
+                "end_time": 90
+            },
+            {
+                "actor": "Customer",
+                "text": "Why should I pay 34,000 on a bill which is supposed to be 3320?  So you can solve it and return it to me?  Why?",
+                "start_time": 95,
+                "end_time": 95
+            },
+            {
+                "actor": "Agent",
+                "text": "It is showing on the system that you were in Saudi Arabia during the period that I told you about.  And you're saying that during the period you were in Egypt and did not travel, and the mobile phone was with you in Egypt.  Accordingly, we will have to review this on the system, even if you were here.  If you are afraid that the line will stop because of the bill, you can pay the bill within 48 hours.  And if it actually appears that there is an error, the amount will be returned to you.",
+                "start_time": 100,
+                "end_time": 100
+            },
+            {
+                "actor": "Customer",
+                "text": "No, I have a better idea, Mr.  Way.  We are at work right now, yeah?  And we are on the peak of working hours.  Can you put me on hold and go talk to somebody?  That guy was supposed to contact me within 48 hours and tell them that there is a customer who has a big problem.  And if this customer's problem is not solved, he will not pay the bill and he will cancel the line and go to another company.  Unless you solve his problem and help me.",
+                "start_time": 105,
+                "end_time": 105
+            },
+            {
+                "actor": "Agent",
+                "text": "Sir, unfortunately, no one can solve it for you right now.  We need to go to the relevant department.  They're the one who will solve it.  Your bill is due on 9-12, God willing, within 48 hours.  I hope that before the invoice dates, the problem will be solved.  I recommend, though, as I told you, to pay the bill, and if there is an error, the amount will be returned to you.",
+                "start_time": 110,
+                "end_time": 110
+            },
+            {
+                "actor": "Customer",
+                "text": "No, I'm not satisfied, frankly, with that, what you are saying, Mr.  Ware.  Right now, what satisfies me is that I am a man with a control bill limit zero.  So I should just pay the fixed value of mine.  And you open a case for me on the system.  And after you make sure that no roaming has been done, you correct this amount.  Then I can pay the bill and the line will not stop.  And you as a company will solve the problem and we both be satisfied.  This is what will satisfy me frankly well.",
+                "start_time": 115,
+                "end_time": 115
+            },
+            {
+                "actor": "Agent",
+                "text": "Okay, have a few moments with me.  Thank you for waiting, Mr.  Mustafa.  Okay, Mr.  Mustafa, I can now transfer the issue to the relevant department.  I can now make an exception request for you.  The bill will not be due on time.  The bill will be postponed.  So, for example, on 9-12, you will have not paid the bill.  The line will continue with you.  It will not stop.  God willing, as I told you, within 48 hours to 72 hours, the problem will be solved and the line will not stop.  At the time the bill is due, the amount that will be paid will be the actual amount, which is \u00a3320, including a tax-added value.  I will work on the system extension so that the bill will no longer be due on 9-12 until the problem is solved.  And it will be recorded that the line will not stop until your problem is solved.  Does this suit you?",
+                "start_time": 120,
+                "end_time": 120
+            },
+            {
+                "actor": "Customer",
+                "text": "It suits me very well, and thank you very much for the help.  I'm satisfied now.",
+                "start_time": 125,
+                "end_time": 125
+            },
+            {
+                "actor": "Agent",
+                "text": "Thank you very much.  We apologize for the error, but it may be something in the system.  As I said, the line will continue with you with all the features and packages included as normal continuation and it will also stop the general roaming service on your line.  If you are traveling at any time, you can call me beforehand and we can do the roaming service accordingly to control your one.",
+                "start_time": 130,
+                "end_time": 130
+            },
+            {
+                "actor": "Customer",
+                "text": "thank you very much mr way.  i really thank you.  you solved my problem and i'm very grateful to you.",
+                "start_time": 135,
+                "end_time": 135
+            },
+            {
+                "actor": "Agent",
+                "text": "thank you very much mr mustafa and i wish you a happy day.",
+                "start_time": 140,
+                "end_time": 140
+            },
+            {
+                "actor": "Customer",
+                "text": "thank you and bye.  thank you thanks.",
+                "start_time": 145,
+                "end_time": 145
+            }
+        ],
+  "metadata": [{"name":"Test metadata key", "value": "Test metadata value"}],
+  "tags": [{"tag":"Test tag"}],
+  "notes": "test notes"
+}
