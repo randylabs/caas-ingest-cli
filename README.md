@@ -6,24 +6,35 @@ To install the ingestion tool run the following command:
 bash setup.sh
 ```
 
-Afterwards you can run the following command to show you the helper:
+Then, you need to create the ".env" file with the following structure:
 ```
-python3 ingest.py
+export AUTH_TOKEN_API=''
+export AUTH_TOKEN_AUDIO=''
+```
+Note that you should replace the empty lines with the correct api keys.
+
+Then you need to source both the virtual environment and the ".env" file: 
+
+```
+source .venv/bin/activate
+source .env
 ```
 
-You can change the 'config.json' file to process other calls. 
-Inside the json file change the filename inside the "audio\_file" section.
+To upload a new audio file and process the conversation run the following
+command:
 
-Example:
-"path": "audio\_calls/english\_Call1\_Stereo\_audio\_2.wav"
-"path": "audio\_calls/arabic\_call\_1.wav"
-
-Note that the "audio\_calls" should be mantained.
-
-The other parts of the metadata of the file can be altered.
-
-## Env file:
 ```
-AUTH_TOKEN_API=''
-AUTH_TOKEN_AUDIO=''
+python3 ingest.py -a [AUDIO_PATH] -c [CONVERSATION_CONFIG_JSON]
 ```
+
+To process a conversation whose audio file was already upload run the command
+below:
+
+```
+python3 ingest.py -c [CONVERSATION_CONFIG_JSON]
+```
+
+The [CONVERSATION\_CONFIG\_JSON] above needs to follow the same structure as 
+the "exampleAudio.json" file. When you upload an audio file the file name will
+be saved with the same name as the "external\_id" parameter. So, the "path" 
+of the audio file inside "exampleAudio.json" needs to be updated accordingly.
